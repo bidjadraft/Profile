@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Links</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      background: #121212;
+      color: #ffffff;
+      font-family: 'Cairo', sans-serif;
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 40px;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: url('https://i.imgur.com/SimYPSg.jpeg') center/cover no-repeat;
+      border: 3px solid #00bcd4;
+      box-shadow: 0 0 12px #00bcd4;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 8px 0 5px;
+      font-size: 28px;
+    }
+    p {
+      margin-bottom: 20px;
+      opacity: 0.8;
+      font-size: 16px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 15px;
+    }
+    .link-button {
+      background: #1f1f1f;
+      border: 2px solid #00bcd4;
+      color: white;
+      padding: 12px 25px;
+      width: 260px;
+      border-radius: 12px;
+      font-size: 18px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      transition: all 0.3s ease;
+    }
+    .link-button i {
+      font-size: 24px;
+    }
+    .link-button:hover {
+      background: #00bcd4;
+      color: #121212;
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-img"></div>
+  <h1>bidjad</h1>
+  <p>Creative Tech Content Producer</p>
+
+  <div class="links">
+    <a class="link-button" href="https://t.me/atarbidjad" target="_blank">
+      <i class="fab fa-telegram"></i> Telegram
+    </a>
+
+    <a class="link-button" href="https://youtube.com/@bidjadq" target="_blank">
+      <i class="fab fa-youtube"></i> YouTube
+    </a>
+
+    <a class="link-button" href="https://github.com/bidjadraft" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+
+    <a class="link-button" href="https://ar-podcast.com/meliontech/" target="_blank">
+      <i class="fas fa-podcast"></i> Podcast
+    </a>
+  </div>
+
+</body>
+</html>
